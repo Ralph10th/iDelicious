@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IDelicious</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel = "stylesheet" href = "Style1.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">IDelicious</a>
+
+            <!-- LIVE DATE AND TIME -->
+            <div class="datetime">
+                <div class="time"></div>    
+                <div class="date"></div>
+            </div>
+        </header>
+        
+        <div class = "container">
+            <div class = "meal-wrapper">
+                <div class = "meal-search">
+                    <h2 class = "title">Find a Recipe</h2>
+                    <blockquote>"Cooking is at once one of the simplest and most gratifying of the arts,<br>but to cook well, one must love and respect food.”<br>
+                        <cite>- Craig Claiborne.</cite>
+                    </blockquote>
+
+                    <div class = "meal-search-box">
+                        <input type = "text" class = "search-control" placeholder="Enter Ingredient" id = "search-input">
+                        <button type = "submit" class = "search-btn btn" id = "search-btn"><i class = "fas fa-search"></i></button>
+                    </div>
+                </div>
+
+                <div class = "meal-result">
+                    <div id= "meal">
+                    <!-- MEAL ITEM-->
+                    </div>
+                </div>
+
+                <div class = "meal-details">
+                    <!-- RECIPE CLOSE BUTTON -->
+                    <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                    <i class = "fas fa-times"></i>
+                    </button>
+
+                    <div class = "meal-details-content">
+                        <!-- MEAL CONTENT -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="fcontainer">
+                <div class="row">
+                    <div class="footer-col">
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">careers</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <ul>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">terms of use</a></li>
+                            <li><a href="#">interest-based ads</a></li>
+                            <li><a href="#">copyright</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+     
+    <script src = "Script1.js"></script>
+    </body>
+</html>
